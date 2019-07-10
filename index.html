@@ -1,28 +1,40 @@
 <html>
     <head>
+        <meta name="viewport" content= "width=device-width, initial-scale=1.0"> 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <header id='header-menu'>
-            <div>
-                <h1>
-                   Louis Le Brun 
-                </h1>
+        <img id='floating-head' src='assets/images/joyfulme.jpg'/>
+        <header id='header'>
+            <div id='header-name'>
+                <h1>Louis Le Brun</h1>
             </div>
-            <div id='navigation'>
-                <a href='#home'>Home</button>
-                <a href='#about'>About me</button>
-                <a href='#competences'>Competences</button>
+            <div id='header-navigation'>
+                <ul id='header-navigation-menu'>
+                        <li class='header-navigation-item'><a href='#home'>Home</a></li>
+                        <li class='header-navigation-item'><a href='#about'>About me</a></li>
+                    <li class='header-navigation-item'><a href='#competences'>Competences</a></li>
+                </ul>
             </div>
         </header>
         <div id='main-body-div'>
-            <section style='background-color: aqua; height: 1500px; width: 100%' id='home'>
+            <section id='home'>
 
             </section>
-            <section style='background-color: blueviolet; height: 1500px; width: 100%' id='about'>
+            <section id='home-details'>
 
             </section>
-            <section style='background-color: aqua; height: 1500px; width: 100%' id='competences'>
+            <section id='about'>
+
+            </section>
+            <section id='about-details'>
+
+            </section>
+            <section id='competences'>
+
+            </section>
+            <section id='competences-details'>
 
             </section>
         </div>
@@ -38,7 +50,7 @@
         reference = reference.replace("#", "");
         console.log(reference);
         document.getElementById(reference).scrollIntoView();
-    })
+    });
 
     function displayCorrectPage(ref) {
         

@@ -1,0 +1,131 @@
+@font-face{
+    font-family: 'avenir';
+    src: url(assets/fonts/avenir.otf) format('opentype')
+}
+
+html {
+    font-family: 'avenir','arial';
+}
+
+body {
+    background-color: rgb(33, 37, 43);
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    background-color: rgb(51, 56, 66);
+    display: flex;
+    flex-direction: row;
+    height: 10%;
+    justify-content: space-between;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+#header-name {
+    width: 40%;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+#header-name, h1 {
+    color: white;
+    text-align: center;
+}
+
+#header-navigation {
+    width: 40%;
+    align-content: left;
+}
+
+#header-navigation-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header-navigation-item, a {
+    color: white;
+    display: block;
+    float: left;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.header-navigation-item:hover {
+    background-color: rgb(33, 37, 43);
+}
+
+.header-navigation-item:active {
+    background-color: rgb(33, 37, 43);
+} 
+
+#floating-head {
+    background-color: white;
+    border-radius: 50%;
+    height: 120px;
+    left: 50%;
+    object-fit: cover;
+    padding: 5;
+    position: fixed;
+    top: 1%;
+    transform: translate(-50%, 0);
+    width: 120px;
+    z-index: 2;
+}
+
+#main-body-div {
+}
+
+#home {
+    background-image: url(assets/images/openspace1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    -webkit-filter: blur(8px);
+    filter: blur(8px);
+}
+
+#home-details {
+    background-color: lightgray;
+    height: 100%;
+}
+
+#about {
+    background-image: url(assets/images/openspace2.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    -webkit-filter: blur(8px);
+    filter: blur(8px);
+}
+
+#about-details {
+    background-color: lightgray;
+    height: 100%;
+}
+
+#competences {
+    background-image: url(assets/images/openspace3.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    -webkit-filter: blur(8px);
+    filter: blur(8px);
+}
+
+#competences-details {
+    background-color: lightgray;
+    height: 100%;
+}
