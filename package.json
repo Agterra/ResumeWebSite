@@ -1,0 +1,22 @@
+{
+  "name": "monsiteweb",
+  "version": "1.0.0",
+  "description": "Personnal website used as resumé",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Agterra/ResumeWebSite.git"
+  },
+  "keywords": [
+    "resume"
+  ],
+  "author": "Louis Le Brun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Agterra/ResumeWebSite/issues"
+  },
+  "homepage": "https://github.com/Agterra/ResumeWebSite#readme"
+}
