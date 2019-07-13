@@ -14,48 +14,48 @@
                 <ul id='header-navigation-menu'>
                         <li class='header-navigation-item'><a href='#home'>Home</a></li>
                         <li class='header-navigation-item'><a href='#about'>About me</a></li>
-                    <li class='header-navigation-item'><a href='#competences'>Competences</a></li>
+                    <li class='header-navigation-item'><a href='#skills'>Skills</a></li>
                 </ul>
             </div>
         </header>
         <div id='main-body-div'>
             <section id='home'>
-                <div id='section-title'>
-                    <h1>Coucou</h1>
+                <div id='home-title'>
+                    <h1>Technical project manager</h1>
+                    <h4>My role is to organize and launch new exciting projects as much as being part of the developpment team</h4>
                 </div>
-            </section>
-            <section id='home-details'>
-
             </section>
             <section id='about'>
-                <div id='section-title'>
-                    <h1>Coucou</h1>
+                <div class='card' id='about-card'>
+                    <h1>About me</h1>
+                    <p>
+                        Hi, my name is Louis and I'm a Technical project manager at <a href="https://www.appsolute.fr/">Appsolute</a>.
+                    </p>
                 </div>
             </section>
-            <section id='about-details'>
-
-            </section>
-            <section id='competences'>
-                <div id='section-title'>
-                    <h1>Coucou</h1>
+            <section id='skills'>
+                <div id='skills-title'>
+                    <h1>Skills</h1>
                 </div>
             </section>
-            <section id='competences-details'>
+            <section id='skills-details'>
+                <div class='card' id='about-card'>
 
+                </div>
             </section>
         </div>
     </body>
     <footer id='footer'>
-        Website made by Louis Le Brun.
+        Copyright © 2019 Louis Le Brun | All rights reserved
     </footer>
 </html>
 <script>
     $('a').on('click', (event) => {
-        event.preventDefault();
-        let reference = $(event.target).attr('href');
-        reference = reference.replace("#", "");
-        console.log(reference);
-        document.getElementById(reference).scrollIntoView();
+        // event.preventDefault();
+        // let reference = $(event.target).attr('href');
+        // reference = reference.replace("#", "");
+        // console.log(reference);
+        // document.getElementById(reference).scrollIntoView();
     });
 
     function displayCorrectPage(ref) {
